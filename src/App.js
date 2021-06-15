@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import BookList from "./components/BookList";
+import { useState } from "react";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import ApolloClient from "apollo-boost";
+import { ApolloProvider } from "react-apollo";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import AddBook from "./components/AddBook";
+
+import "./App.css";
+import BookDetails from "./components/BookDetails";
+import Footer from "./components/Footer";
+
+const client = new ApolloClient({
+  uri: "http://localhost:2000/graphql",
+});
 
 function App() {
+  const [bookId, getBookId] = useState(null);
+
+  const getBookById = (e, bookId) => {
+    getBookId(bookId);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ApolloProvider client={client}>
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          {/* <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/dashboard">
+            <Dashboard />
+          </Route> */}
+        </Switch>
+        <Footer />
+      </Router>
+    </ApolloProvider>
   );
 }
 
