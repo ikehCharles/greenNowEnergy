@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/greenNowEnergy/static/css/main.391ec820.chunk.css",
-    "main.js": "/greenNowEnergy/static/js/main.1ef966c9.chunk.js",
-    "main.js.map": "/greenNowEnergy/static/js/main.1ef966c9.chunk.js.map",
-    "runtime-main.js": "/greenNowEnergy/static/js/runtime-main.e2e585c9.js",
-    "runtime-main.js.map": "/greenNowEnergy/static/js/runtime-main.e2e585c9.js.map",
-    "static/js/2.dfb9cf67.chunk.js": "/greenNowEnergy/static/js/2.dfb9cf67.chunk.js",
-    "static/js/2.dfb9cf67.chunk.js.map": "/greenNowEnergy/static/js/2.dfb9cf67.chunk.js.map",
-    "static/js/3.fcbd64c5.chunk.js": "/greenNowEnergy/static/js/3.fcbd64c5.chunk.js",
-    "static/js/3.fcbd64c5.chunk.js.map": "/greenNowEnergy/static/js/3.fcbd64c5.chunk.js.map",
+    "main.css": "/greenNowEnergy/static/css/main.9833458e.chunk.css",
+    "main.js": "/greenNowEnergy/static/js/main.53ddae46.chunk.js",
+    "main.js.map": "/greenNowEnergy/static/js/main.53ddae46.chunk.js.map",
+    "runtime-main.js": "/greenNowEnergy/static/js/runtime-main.2773e851.js",
+    "runtime-main.js.map": "/greenNowEnergy/static/js/runtime-main.2773e851.js.map",
+    "static/js/2.c3539e2d.chunk.js": "/greenNowEnergy/static/js/2.c3539e2d.chunk.js",
+    "static/js/2.c3539e2d.chunk.js.map": "/greenNowEnergy/static/js/2.c3539e2d.chunk.js.map",
+    "static/js/3.cce2810f.chunk.js": "/greenNowEnergy/static/js/3.cce2810f.chunk.js",
+    "static/js/3.cce2810f.chunk.js.map": "/greenNowEnergy/static/js/3.cce2810f.chunk.js.map",
     "index.html": "/greenNowEnergy/index.html",
-    "static/css/main.391ec820.chunk.css.map": "/greenNowEnergy/static/css/main.391ec820.chunk.css.map",
-    "static/js/2.dfb9cf67.chunk.js.LICENSE.txt": "/greenNowEnergy/static/js/2.dfb9cf67.chunk.js.LICENSE.txt",
+    "static/css/main.9833458e.chunk.css.map": "/greenNowEnergy/static/css/main.9833458e.chunk.css.map",
+    "static/js/2.c3539e2d.chunk.js.LICENSE.txt": "/greenNowEnergy/static/js/2.c3539e2d.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/greenNowEnergy/static/media/solar3.4c0838cf.jpg",
+    "static/media/About.css": "/greenNowEnergy/static/media/mission.05035d2b.jpeg",
     "static/media/product1.jpeg": "/greenNowEnergy/static/media/product1.accdd0ba.jpeg",
     "static/media/product2.jpeg": "/greenNowEnergy/static/media/product2.d7dcc725.jpeg",
     "static/media/project1.jpeg": "/greenNowEnergy/static/media/project1.168aa0f1.jpeg",
     "static/media/project2.jpeg": "/greenNowEnergy/static/media/project2.634cbb56.jpeg",
     "static/media/project3.jpeg": "/greenNowEnergy/static/media/project3.49aa96f0.jpeg",
+    "static/media/Project.css": "/greenNowEnergy/static/media/projectBackG.b5f5ba62.jpg",
     "static/media/solar.jpg": "/greenNowEnergy/static/media/solar.022aabb6.jpg",
     "static/media/solar2.jpg": "/greenNowEnergy/static/media/solar2.f905869d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2e585c9.js",
-    "static/js/2.dfb9cf67.chunk.js",
-    "static/css/main.391ec820.chunk.css",
-    "static/js/main.1ef966c9.chunk.js"
+    "static/js/runtime-main.2773e851.js",
+    "static/js/2.c3539e2d.chunk.js",
+    "static/css/main.9833458e.chunk.css",
+    "static/js/main.53ddae46.chunk.js"
   ]
 }
