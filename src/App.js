@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Project from "./pages/Project";
+import Contact from "./pages/Contact";
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path="/projects">
             <Project />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
         <Footer />

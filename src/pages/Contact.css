@@ -1,0 +1,15 @@
+/* Contact Landing */
+.contact-landing {
+  background-image: url(../assets/contact/contact10.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+}
+.contact-landing h3 {
+  padding-left: 30px;
+  font-size: 34px;
+  font-weight: 1000;
+}

@@ -266,6 +266,17 @@ const faq = {
 
 const contact = {
   title: "Contact Us",
+  form: {
+    header: {
+      title: "stay in touch",
+      body: loremIpsum().toString().substr(0, 100),
+    },
+  },
+  quickContact: {
+    header: "Quick Contact",
+    body: loremIpsum().toString().substr(0, 100),
+    location: "",
+  },
   body: [
     {
       type: "email",
