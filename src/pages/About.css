@@ -1,0 +1,147 @@
+/* About-Landing Styles */
+.about-landing {
+  background-image: url(../assets/about/land.jpeg);
+  background-size: contain;
+  background-position: top;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+.about-landing-wrapper {
+  background-color: rgba(240, 240, 240, 0.296);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.about-landing-wrapper h3 {
+  /* transform: rotate(90deg) perspective(300px); */
+  transform: skew(300deg, 30deg) rotate(-15deg);
+  text-shadow: 8px 0px rgba(0, 0, 0, 0.124);
+  font-size: 20px;
+  font-weight: 800;
+  margin-right: 10px;
+  color: #494949;
+}
+@media (min-width: 764px) {
+  .about-landing {
+    height: 45vh;
+  }
+  .about-landing-wrapper h3 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 900px) {
+  .about-landing {
+    height: 60vh;
+  }
+  .about-landing-wrapper h3 {
+    font-size: 38px;
+  }
+}
+
+/* about mission */
+.about-mission {
+  display: flex;
+  background-image: url(../assets/about/mission.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  /* height: 600px; */
+  justify-content: center;
+  color: white;
+}
+.about-mission-wrapper {
+  /* background-color: rgba(0, 0, 0, 0.302); */
+  width: 100%;
+  height: 100%;
+}
+.about-mission-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: column;
+  text-align: center;
+}
+.about-mission-header h2 {
+  width: 100%;
+}
+
+.about-mission-item p {
+  padding: 10px;
+}
+
+@media (min-width: 764px) {
+  .about-mission-header {
+    width: 500px;
+    margin-left: 40px;
+    padding-top: 30px;
+    text-align: left;
+    padding-bottom: 30px;
+  }
+  .about-mission-header h2 {
+    margin-top: 100px;
+  }
+  .about-mission-item {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-mission-item p {
+    margin-right: 20px;
+  }
+}
+@media (min-width: 900px) {
+  .about-mission-header {
+    width: 500px;
+    margin-left: 200px;
+    padding: 30px 0;
+  }
+  .about-mission-item {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-mission-header h2 {
+    margin-top: 20px;
+  }
+}
+
+/* aboutWhy */
+.about-why {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  padding: 40px 10px;
+}
+
+.about-why-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.about-why-body-item {
+  /* width: 300px; */
+  margin: 0 10px;
+}
+.about-why-body-item-icon {
+}
+.about-why-body-item-icon i {
+  padding: 10px;
+  font-size: 42px;
+  border-bottom: 1px solid tomato;
+  border-left: 1px solid tomato;
+  border-radius: 0.8em;
+}
+@media (min-width: 746px) {
+  .about-why-body {
+    flex-direction: row;
+  }
+  .about-why-header {
+    margin: 10px auto;
+    width: 600px;
+  }
+}

@@ -21,6 +21,9 @@ nav.header {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 1.5px;
   color: #00772a;
+  flex-basis: 50%;
+  text-align: right;
+  padding-right: 13px;
 }
 .header .web {
   display: none;
@@ -36,7 +39,7 @@ nav.header {
   padding: 5px 10px;
   border-radius: 2em;
   padding-bottom: 10px;
-  color: #00260d;
+  color: #00ce48;
 }
 .header ul li a:hover {
   color: rgba(11, 138, 0, 0.775);

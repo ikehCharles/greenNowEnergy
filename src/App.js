@@ -2,6 +2,8 @@ import BookList from "./components/BookList";
 import { useState } from "react";
 import Header from "./components/Header";
 import Home from "./pages/Home";
+import About from "./pages/About";
+import Project from "./pages/Project";
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -30,12 +32,12 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          {/* <Route path="/about">
+          <Route path="/about">
             <About />
           </Route>
-          <Route path="/dashboard">
-            <Dashboard />
-          </Route> */}
+          <Route path="/projects">
+            <Project />
+          </Route>
         </Switch>
         <Footer />
       </Router>

@@ -32,17 +32,33 @@ const about = {
   goToButtonText: "Learn More",
   mission: {
     header: "Our Mission",
-    body1: "Body1",
-    body2: "Body2",
+    body1: loremIpsum().toString().substr(0, 200),
+    body2: loremIpsum().toString().substr(0, 200),
   },
+
   standards: {
     header: `Why ${appTitle}`,
-    intro: "standards intro",
+    intro: loremIpsum().toString().substr(0, 200),
     body: [
       {
         title: "Renewable",
-        icon: "Renewable Icon",
-        body: "Renewable Body",
+        icon: "fas fa-recycle",
+        body: loremIpsum().toString().substr(0, 50),
+      },
+      {
+        title: "Cost Effective",
+        icon: "fas fa-wallet",
+        body: loremIpsum().toString().substr(0, 50),
+      },
+      {
+        title: "Green",
+        icon: "fas fa-solar-panel",
+        body: loremIpsum().toString().substr(0, 50),
+      },
+      {
+        title: "Our Benefits",
+        icon: "fab fa-accusoft",
+        body: loremIpsum().toString().substr(0, 50),
       },
     ],
   },
