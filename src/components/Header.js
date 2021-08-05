@@ -40,7 +40,7 @@ export default function Header() {
         <div>
           <SideNav appTitle={appTitle} appMenuList={appMenuList} />
           <div className="web appTitle">
-            <Link to="/">{appTitle}</Link>
+            <Link to="/greenNowEnergy">{appTitle}</Link>
           </div>
         </div>
         <ul className="web ">
@@ -52,7 +52,7 @@ export default function Header() {
             ))}
         </ul>
         <div className="mobile appTitle">
-          <Link to="/">{appTitle}</Link>
+          <Link to="/greenNowEnergy">{appTitle}</Link>
         </div>
       </nav>
     </>

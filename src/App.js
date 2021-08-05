@@ -30,7 +30,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/greenNowEnergy">
             <Home />
           </Route>
           <Route path="/about">

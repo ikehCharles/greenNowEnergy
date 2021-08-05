@@ -39,10 +39,10 @@ nav.header {
   padding: 5px 10px;
   border-radius: 2em;
   padding-bottom: 10px;
-  color: #00ce48;
+  color: #003111;
 }
 .header ul li a:hover {
-  color: rgba(11, 138, 0, 0.775);
+  color: rgba(4, 255, 87, 0.775);
   letter-spacing: 2px;
 }
 .MuiPaper-root a {

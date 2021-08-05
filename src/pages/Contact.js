@@ -8,8 +8,10 @@ export default function Project() {
   return (
     <div>
       <ContactLanding />
-      <ContactForm />
-      <ContactQuick />
+      <div className="contact-row2">
+        <ContactForm />
+        <ContactQuick />
+      </div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ const appTitle = "GreenNowEnergy";
 const appDescription = loremIpsum().toString().substr(0, 100);
 const appMenuList = [
   { title: "About", link: "about" },
-  { title: "Products", link: "products" },
+  // { title: "Products", link: "products" },
   { title: "Projects", link: "projects" },
   { title: "Contact Us", link: "contact" },
 ];

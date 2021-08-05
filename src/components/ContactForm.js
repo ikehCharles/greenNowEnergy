@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { contact } from "../appCrendentials";
+import TextField from "@material-ui/core/TextField";
 
 export default function ContactForm() {
   const [formInputs, getFormInput] = useState({
@@ -31,44 +32,51 @@ export default function ContactForm() {
       <div className="contact-form-body">
         <form onSubmit={submitForm}>
           <div className="contact-form-body-input">
-            <label htmlFor="firstname">First Name</label>
-            <input
+            {/* <label htmlFor="firstname">First Name</label> */}
+            <TextField
+              label="First Name"
               type="text"
               value={formInputs.firstname}
               onChange={(e) => assignFormValues(e, "firstname")}
             />
           </div>
           <div className="contact-form-body-input">
-            <label htmlFor="lastname">Last Name</label>
-            <input
+            {/* <label htmlFor="lastname">Last Name</label> */}
+            <TextField
+              label="Last Name"
               type="text"
               value={formInputs.lastname}
               onChange={(e) => assignFormValues(e, "lastname")}
             />
           </div>
           <div className="contact-form-body-input">
-            <label htmlFor="phone">Your Phone</label>
-            <input
-              type="text"
+            {/* <label htmlFor="phone">Your Phone</label> */}
+            <TextField
+              label="Tel"
+              type="tel"
               value={formInputs.phone}
               onChange={(e) => assignFormValues(e, "phone")}
             />
           </div>
           <div className="contact-form-body-input">
-            <label htmlFor="email">Your Email</label>
-            <input
-              type="text"
+            {/* <label htmlFor="email">Your Email</label> */}
+            <TextField
+              label="Email"
+              type="email"
               value={formInputs.email}
               onChange={(e) => assignFormValues(e, "email")}
             />
           </div>
-          <div className="contact-form-body-input">
-            <label htmlFor="message">Message</label>
-            <textarea
-              type="text"
+          <div className="contact-form-body-input textarea">
+            {/* <label htmlFor="message">Message</label> */}
+            <TextField
+              id="standard-multiline-flexible"
+              label="Message"
+              multiline
+              rowsMax={4}
               value={formInputs.message}
               onChange={(e) => assignFormValues(e, "message")}
-            ></textarea>
+            />
           </div>
           <div className="submit">
             <button>Submit</button>
