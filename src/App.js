@@ -30,21 +30,21 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/greenNowEnergy">
+          <Route exact path="/">
             <Home />
-          </Route>
+          </Route>{" "}
           <Route path="/about">
             <About />
-          </Route>
+          </Route>{" "}
           <Route path="/projects">
             <Project />
-          </Route>
+          </Route>{" "}
           <Route path="/contact">
             <Contact />
-          </Route>
-        </Switch>
+          </Route>{" "}
+        </Switch>{" "}
         <Footer />
-      </Router>
+      </Router>{" "}
     </ApolloProvider>
   );
 }
