@@ -1,7 +1,7 @@
 {
     "name": "greenNowEnergy",
     "version": "0.1.0",
-    "homepage": "http://ikehCharles.github.io/greenNowEnergy",
+    "homepage": "http://ikehCharles.github.io/greenNowEnergy/",
     "private": true,
     "dependencies": {
         "@material-ui/core": "^4.11.4",
