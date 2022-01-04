@@ -47,7 +47,7 @@ export default function Header() {
           {appMenuList.length &&
             appMenuList.map((menuItem) => (
               <li key={menuItem.link}>
-                <Link to={`/${menuItem.link}`}>{menuItem.title}</Link>
+                <Link to={`/`}>{menuItem.title}</Link>
               </li>
             ))}
         </ul>

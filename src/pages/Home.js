@@ -22,19 +22,19 @@ export default function Home() {
       {/* <Testimonial /> */}
       <Slides>
       <div className="slide" style={{ backgroundImage: 'url(https://images.pexels.com/photos/9875673/pexels-photo-9875673.jpeg?cs=srgb&dl=pexels-kindel-media-9875673.jpg&fm=jpg)' }}>
-      <h2 style={{fontSize:60, marginTop:'-300px', color:'goldenrod'}}>{appCTA.main.text} {appCTA.main.highlighted}</h2>
+      {/* <h2 >{appCTA.main.text} {appCTA.main.highlighted}</h2> */}
     </div>
-    <div className="slide" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1637417494521-78b4d1d33029?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)' }}>
-    <h2 style={{fontSize:60, marginTop:'-300px', color:'goldenrod'}}>{appCTA.main.text} {appCTA.main.highlighted}</h2>
+    <div className="slide" style={{ backgroundImage: 'url(https://images.pexels.com/photos/7424250/pexels-photo-7424250.jpeg?cs=srgb&dl=pexels-nothing-ahead-7424250.jpg&fm=jpg)' }}>
+    {/* <h2 >{appCTA.main.text} {appCTA.main.highlighted}</h2> */}
     </div>
-    <div className="slide" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1472224371017-08207f84aaae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)' }}>
-    <h2 style={{fontSize:60, marginTop:'-300px', color:'goldenrod'}}>{appCTA.main.text} {appCTA.main.highlighted}</h2>
+    <div className="slide" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1529781833076-5f422f69d1af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80)' }}>
+    {/* <h2 >{appCTA.main.text} {appCTA.main.highlighted}</h2> */}
     </div>
-    <div className="slide" style={{ backgroundImage: 'url(https://images.pexels.com/photos/9875418/pexels-photo-9875418.jpeg?cs=srgb&dl=pexels-kindel-media-9875418.jpg&fm=jpg)' }}>
-    <h2 style={{fontSize:60, marginLeft:'-600px', width:400, lineHeight: 1.5, color:'goldenrod'}}>{appCTA.main.text} {appCTA.main.highlighted}</h2>
+    <div className="slide" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1605191738062-c861b8afebc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)' }}>
+    {/* <h2 >{appCTA.main.text} {appCTA.main.highlighted}</h2> */}
     </div>
     <div className="slide" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1464039397811-476f652a343b?auto=format&fit=crop&w=2848&q=80)' }}>
-      <h2>Together We Can Save This Planet</h2>
+      {/* <h2>Together We Can Save This Planet</h2> */}
     </div>
       </Slides>
     </div>

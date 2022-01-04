@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-
+import './slides.css'
 
 export default function Slides({children}){
     const [active, setActive] = useState(0)
@@ -58,12 +58,14 @@ export default function Slides({children}){
           </div>
           <div className="buttons">
             <button
+            className="btnSlide"  
               onClick={prev}
               disabled={active === 0}
             >
               &uarr; Previous Slide
             </button>
             <button
+              className="btnSlide"  
               onClick={next}
               disabled={active === children.length - 1}
             >

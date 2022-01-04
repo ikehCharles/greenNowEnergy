@@ -1,0 +1,13 @@
+ .btnSlide {
+     background: transparent;
+     border: 1px solid goldenrod;
+     padding: 10px 15px;
+     color: goldenrod;
+     border-radius: .3em;
+     font-weight: 800;
+     margin: 0 50px;
+ }
+ 
+ .btnSlide:disabled {
+     opacity: 0.5;
+ }
