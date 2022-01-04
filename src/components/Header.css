@@ -1,71 +1,80 @@
 nav.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  transition: 0.3s all;
-  z-index: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    transition: 0.3s all;
+    z-index: 900;
 }
+
 .showNavBackground {
-  background-color: rgba(255, 255, 255, 0.72);
-  color: white;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.72);
+    color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
+
 .hideNav {
-  transform: translateY(-100px);
+    transform: translateY(-100px);
 }
+
 .appTitle {
-  font-size: 22px;
-  font-weight: 500;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  letter-spacing: 1.5px;
-  color: #00772a;
-  flex-basis: 50%;
-  text-align: right;
-  padding-right: 13px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 1.5px;
+    color: #00a138;
+    flex-basis: 50%;
+    text-align: right;
+    padding-right: 13px;
 }
+
 .header .web {
-  display: none;
+    display: none;
 }
 
 .header ul li {
-  display: inline;
-  margin: 0 30px;
+    display: inline;
+    margin: 0 30px;
 }
+
 .header ul li a {
-  font-size: 1.1em;
-  font-weight: 600;
-  padding: 5px 10px;
-  border-radius: 2em;
-  padding-bottom: 10px;
-  color: #003111;
-}
-.header ul li a:hover {
-  color: rgba(4, 255, 87, 0.775);
-  letter-spacing: 2px;
-}
-.MuiPaper-root a {
-  margin: 10px 0 !important;
-}
-.MuiPaper-root {
-  background-color: black !important;
-  color: rgb(175, 255, 182) !important;
-  justify-content: space-around !important;
-  align-items: center !important;
-  flex-direction: column !important;
-}
-@media (min-width: 900px) {
-  .header .web {
-    display: block;
-  }
-  .header .mobile {
-    display: none;
-  }
-  nav.header {
-    /* height: 80px; */
-    justify-content: space-around;
-    align-items: flex-end;
+    font-size: 1.0em;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 2em;
     padding-bottom: 10px;
-  }
+    color: #00ac3c;
+}
+
+.header ul li a:hover {
+    color: rgba(0, 228, 76, 0.775);
+    letter-spacing: 2px;
+}
+
+.MuiPaper-root a {
+    margin: 10px 0 !important;
+}
+
+.MuiPaper-root {
+    background-color: black !important;
+    color: rgb(175, 255, 182) !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+@media (min-width: 900px) {
+    .header .web {
+        display: block;
+    }
+    .header .mobile {
+        display: none;
+    }
+    nav.header {
+        /* height: 80px; */
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-bottom: 10px;
+    }
 }

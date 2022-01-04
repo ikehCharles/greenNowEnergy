@@ -51,6 +51,7 @@ export default function Header() {
               </li>
             ))}
         </ul>
+        
         <div className="mobile appTitle">
           <Link to="/greenNowEnergy">{appTitle}</Link>
         </div>
